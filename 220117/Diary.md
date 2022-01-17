@@ -69,7 +69,7 @@ Writing Specification
 > 
 > 벡터 공간은 벡터들의 집합으로, 이 벡터들은 서로 더해질 수 있고, 또 스칼라에 의하여 곱해질 수 있음.
 > 
-> 그리고 벡터는 벡터 공간 내에서 정의되는 원소를 지칭한다.(출처 - (Wikipedia - Vector(mathematics and physics))[https://en.wikipedia.org/wiki/Vector_(mathematics_and_physics)])
+> 그리고 벡터는 벡터 공간 내에서 정의되는 원소를 지칭한다.(출처 - [Wikipedia - Vector(mathematics and physics)](https://en.wikipedia.org/wiki/Vector_(mathematics_and_physics)))
 >
 >> 그런데 여기 내용을 읽다보니까 벡터라는 단어는 사원수(Quaternion)를 설명하면서 소개되었다는 말이 있는데, 개인적으로 꽤나 흥미로웠다. **사원수 때문에 박살난 내 로봇공학개론 학점 때문은 아니다.**
 >
@@ -99,7 +99,7 @@ Writing Specification
 > 
 > 여기서 나오는 원점이 바로 영 벡터를 의미하기 때문이다.
 > 
-> 정리하자면 벡터가 원점으로부터 상대적 위치를 표현한다는 이유는, 벡터에 영벡터를 더했을 때 그 벡터가 바뀌지 않는 특성을 이용하면(Additive Identity)[https://en.wikipedia.org/wiki/Additive_identity]
+> 정리하자면 벡터가 원점으로부터 상대적 위치를 표현한다는 이유는, 벡터에 영벡터를 더했을 때 그 벡터가 바뀌지 않는 특성을 이용하면([Additive Identity](https://en.wikipedia.org/wiki/Additive_identity))
 > 
 >> 1) 영 벡터를 빼더라도 그 벡터는 그대로일 것이고, => Vec(x) - Vec(0) = Vec(x)
 >>
@@ -118,7 +118,7 @@ Writing Specification
 >>
 >> 2) 벡터 공간 내 벡터를 기저벡터들의 선형 조합(Linear Combination)으로 표현할 수 있음.
 >>
->> 출처 - Basis(Linear Algebra)[https://en.wikipedia.org/wiki/Basis_(linear_algebra)]
+>> 출처 - [Basis(Linear Algebra)](https://en.wikipedia.org/wiki/Basis_(linear_algebra))
 >
 > 사실 이게 뭐가 중요한데..? 라고 생각할 수도 있는데
 >
