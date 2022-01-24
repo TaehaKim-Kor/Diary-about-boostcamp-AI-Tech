@@ -131,3 +131,5 @@ dmypy.json
 # markdown
 Diary_format.md
 *_draft.md
+
+./220124/pytorch-template/*
