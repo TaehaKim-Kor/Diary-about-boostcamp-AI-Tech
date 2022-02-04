@@ -119,7 +119,7 @@ def bar_plot_example(case):
             a.set_ylim(0,200)
         plt.show()
     elif case==6 : # grouped bar plot 그리기 (2개)
-    print("실제 데이터로 overlapped bar plot by alpha 해보기 -> 2개")
+        print("실제 데이터로 overlapped bar plot by alpha 해보기 -> 2개")
         # 3가지 테크닉으로 구현함.
         # 1) x축을 조정한다.
         # 2) width를 조정한다.
