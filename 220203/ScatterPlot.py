@@ -66,6 +66,10 @@ def scatter_plot_example(case):
         print("한번에 여러 개의 데이터의 상관관계를 나타낸 그래프를 이중 반복문을 통해 구현해 볼까?")
         #step 1 : feature 이름들에 대한 list를 만들기
         feature_list = ['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']
+        # 또는
+        feature_list = [i for i in list(iris.columns.unique())]
+        feature_list.pop(feature_list.index('Id'))
+        feature_list.pop(feature_list.index('Species'))
         #step 2 : feature 갯수만큼 정방 figure 만들기
         fig, axes = plt.subplots(len(feature_list),len(feature_list),figsize=(14,14))
         #step 3 : enumerate를 활용하여 이중반복문을 구현해 ax 채우기.
