@@ -128,7 +128,7 @@ def color_example(case):
     elif case==8:
         print("채도 대비를 해보자")
         ac, nc = 'orange', 'black'#a_color, not_a_color 명도도조절해주면 강조가 더 좋음(lightgray)
-        colors = student_data['race/ethnicity'].apply(lambda x : ac if x =='group B' else nc)
+        colors = student_data['race/ethnicity'].apply(lambda x : ac if x =='group A' else nc)
         color_bars = [ac]+[nc]*4
         groups = student_data['race/ethnicity'].value_counts().sort_index()
         fig = plt.figure(figsize=(18,15))
@@ -163,6 +163,27 @@ def color_example(case):
             ax.set_xlim(-2,105)
             ax.set_ylim(-2,105)
         plt.show()
+    elif case==10:
+        print("보색대비를 2가지 경우 다 활용해보는 것으로 사용하면 어떻게 될까?")
+        ac, bc, nc = 'tomato', 'lightgreen', 'lightgray'
+        colors = student_data['race/ethnicity'].apply(lambda x : ac if x =='group A' else(bc if x=='group B' else nc))
+        # lambda는 elif가 없으나 else 안에 if문을 구현하면 elif처럼 구현할 수 있다는 것을 참고!
+        color_bars = [ac]+[bc]+[nc]*3
+        groups = student_data['race/ethnicity'].value_counts().sort_index()
+        fig = plt.figure(figsize=(18,15))
+        ax1 = fig.add_subplot(211)
+        ax1.bar(groups.index, groups, width=0.5, color=color_bars)
+        ax_s1 = fig.add_subplot(2,3,4)
+        ax_s2 = fig.add_subplot(2,3,5)
+        ax_s3 = fig.add_subplot(2,3,6)
+        ax_s1.scatter(student_data['math score'],student_data['reading score'],color=colors,alpha=0.5)
+        ax_s2.scatter(student_data['math score'],student_data['writing score'],color=colors,alpha=0.5)
+        ax_s3.scatter(student_data['writing score'],student_data['reading score'],color=colors,alpha=0.5)
+        for ax in [ax_s1,ax_s2,ax_s3]:
+            ax.set_xlim(-2,105)
+            ax.set_ylim(-2,105)
+        plt.show()
+        #그렇게..안이쁜데...?
 if __name__=="__main__":
-    case = 9
+    case = 10
     color_example(case)
