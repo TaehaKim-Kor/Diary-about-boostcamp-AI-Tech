@@ -168,6 +168,7 @@ def color_example(case):
         ac, bc, nc = 'tomato', 'lightgreen', 'lightgray'
         colors = student_data['race/ethnicity'].apply(lambda x : ac if x =='group A' else(bc if x=='group B' else nc))
         # lambda는 elif가 없으나 else 안에 if문을 구현하면 elif처럼 구현할 수 있다는 것을 참고!
+        # Reference : https://emilkwak.github.io/python-inline-if-statement-elif
         color_bars = [ac]+[bc]+[nc]*3
         groups = student_data['race/ethnicity'].value_counts().sort_index()
         fig = plt.figure(figsize=(18,15))
