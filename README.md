@@ -13,4 +13,4 @@ This repository will upload the draft of the diary every day.
 
 I recommand seeing the diaries in the notion. It will be clear.
 
-My Link : https://amvision.notion.site/amvision/boostcamp-AI-Tech-3d68bfbb726b486882f9acd2d7d96f36
+My Notion Link : https://amvision.notion.site/amvision/boostcamp-AI-Tech-3d68bfbb726b486882f9acd2d7d96f36
