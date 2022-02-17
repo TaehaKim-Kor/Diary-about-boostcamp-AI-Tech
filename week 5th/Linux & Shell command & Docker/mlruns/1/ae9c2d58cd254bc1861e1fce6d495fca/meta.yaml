@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kimtaeha/workspaces/Linux%20%26%20Shell%20command%20%26%20Docker/mlruns/1/ae9c2d58cd254bc1861e1fce6d495fca/artifacts
+end_time: 1645089034312
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: ae9c2d58cd254bc1861e1fce6d495fca
+run_uuid: ae9c2d58cd254bc1861e1fce6d495fca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1645089033431
+status: 4
+tags: []
+user_id: kimtaeha

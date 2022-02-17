@@ -1,0 +1,4 @@
+artifact_location: file:///home/kimtaeha/workspaces/Linux%20%26%20Shell%20command%20%26%20Docker/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: tutorial
