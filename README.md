@@ -13,4 +13,6 @@ This repository will upload the draft of the diary every day.
 
 I recommand seeing the diaries in the notion. It will be clear.
 
+**Diaries of the week 6th and 7th are written in Notion directly.**
+
 My Notion Link : https://amvision.notion.site/amvision/boostcamp-AI-Tech-3d68bfbb726b486882f9acd2d7d96f36
